@@ -13,6 +13,7 @@ export const StakeToken = () => {
 
     const [stakeAmount, setStakeAmount] = useState(0);
     const [withdrawAmount, setWithdrawAmount] = useState(0);
+    // @ts-ignore
     const [stakingState, setStakingState] = useState("init" || "approved");
     const [isStaking, setIsStaking] = useState(false);
     const [isWithdrawing, setIsWithdrawing] = useState(false);
