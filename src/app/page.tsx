@@ -2,6 +2,7 @@ import { StakeToken } from "../../components/StakeToken";
 import { client } from "./client";
 import { chain } from "./chain";
 import { ConnectEmbed } from "@/app/thirdweb";
+import Landing from "../../components/Landing";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
         />
         <StakeToken />
       </div>
-    </div>
-  );
-}
+      </div>
+      );
+    }
+       {/* <div>
+       <Landing/>
+     </div> */}
