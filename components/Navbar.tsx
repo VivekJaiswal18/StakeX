@@ -107,6 +107,7 @@ const Navbar = () => {
           </div>
           
           <div className="text-6xl bg-black cursor-pointer">
+             {/* @ts-ignore */}
           <ConnectButton 
             client={client}
             chain={chain}>
